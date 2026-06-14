@@ -1,0 +1,432 @@
+{
+  "tfidf": {
+    "all": {
+      "macro_f1": 0.8434,
+      "accuracy": 0.8434,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8482731858750485,
+          "recall": 0.8427139552814187,
+          "f1-score": 0.8454844324115258,
+          "support": 2594.0
+        },
+        "positive": {
+          "precision": 0.838479809976247,
+          "recall": 0.8441610203268234,
+          "f1-score": 0.8413108242303873,
+          "support": 2509.0
+        },
+        "accuracy": 0.8434254360180287,
+        "macro avg": {
+          "precision": 0.8433764979256477,
+          "recall": 0.8434374878041211,
+          "f1-score": 0.8433976283209565,
+          "support": 5103.0
+        },
+        "weighted avg": {
+          "precision": 0.8434580614129491,
+          "recall": 0.8434254360180287,
+          "f1-score": 0.8434323879422966,
+          "support": 5103.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2186,
+          408
+        ],
+        [
+          391,
+          2118
+        ]
+      ]
+    },
+    "sarcastic": {
+      "macro_f1": 0.7317,
+      "accuracy": 0.8556,
+      "classification_report": {
+        "negative": {
+          "precision": 0.9437229437229437,
+          "recall": 0.8861788617886179,
+          "f1-score": 0.9140461215932913,
+          "support": 246.0
+        },
+        "positive": {
+          "precision": 0.4716981132075472,
+          "recall": 0.6578947368421053,
+          "f1-score": 0.5494505494505495,
+          "support": 38.0
+        },
+        "accuracy": 0.8556338028169014,
+        "macro avg": {
+          "precision": 0.7077105284652454,
+          "recall": 0.7720367993153616,
+          "f1-score": 0.7317483355219204,
+          "support": 284.0
+        },
+        "weighted avg": {
+          "precision": 0.8805646917525738,
+          "recall": 0.8556338028169014,
+          "f1-score": 0.8652622070108118,
+          "support": 284.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          218,
+          28
+        ],
+        [
+          13,
+          25
+        ]
+      ]
+    },
+    "straight": {
+      "macro_f1": 0.8427,
+      "accuracy": 0.8439,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8242827868852459,
+          "recall": 0.833678756476684,
+          "f1-score": 0.8289541473467285,
+          "support": 1930.0
+        },
+        "positive": {
+          "precision": 0.8604954367666232,
+          "recall": 0.8523461041756349,
+          "f1-score": 0.856401384083045,
+          "support": 2323.0
+        },
+        "accuracy": 0.8438749118269457,
+        "macro avg": {
+          "precision": 0.8423891118259346,
+          "recall": 0.8430124303261595,
+          "f1-score": 0.8426777657148867,
+          "support": 4253.0
+        },
+        "weighted avg": {
+          "precision": 0.8440622333170446,
+          "recall": 0.8438749118269457,
+          "f1-score": 0.8439459016233481,
+          "support": 4253.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          1609,
+          321
+        ],
+        [
+          343,
+          1980
+        ]
+      ]
+    }
+  },
+  "transformer": {
+    "all": {
+      "macro_f1": 0.8734,
+      "accuracy": 0.8734,
+      "classification_report": {
+        "negative": {
+          "precision": 0.8840694006309149,
+          "recall": 0.8643022359290671,
+          "f1-score": 0.8740740740740741,
+          "support": 2594.0
+        },
+        "positive": {
+          "precision": 0.8628749513050253,
+          "recall": 0.8828218413710641,
+          "f1-score": 0.8727344365642238,
+          "support": 2509.0
+        },
+        "accuracy": 0.8734077993337253,
+        "macro avg": {
+          "precision": 0.8734721759679701,
+          "recall": 0.8735620386500655,
+          "f1-score": 0.873404255319149,
+          "support": 5103.0
+        },
+        "weighted avg": {
+          "precision": 0.8736486925457383,
+          "recall": 0.8734077993337253,
+          "f1-score": 0.8734154124020745,
+          "support": 5103.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          2242,
+          352
+        ],
+        [
+          294,
+          2215
+        ]
+      ]
+    },
+    "sarcastic": {
+      "macro_f1": 0.7841,
+      "accuracy": 0.8838,
+      "classification_report": {
+        "negative": {
+          "precision": 0.961038961038961,
+          "recall": 0.9024390243902439,
+          "f1-score": 0.9308176100628931,
+          "support": 246.0
+        },
+        "positive": {
+          "precision": 0.5471698113207547,
+          "recall": 0.7631578947368421,
+          "f1-score": 0.6373626373626373,
+          "support": 38.0
+        },
+        "accuracy": 0.8838028169014085,
+        "macro avg": {
+          "precision": 0.7541043861798579,
+          "recall": 0.832798459563543,
+          "f1-score": 0.7840901237127652,
+          "support": 284.0
+        },
+        "weighted avg": {
+          "precision": 0.9056621029780743,
+          "recall": 0.8838028169014085,
+          "f1-score": 0.8915525080818729,
+          "support": 284.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          222,
+          24
+        ],
+        [
+          9,
+          29
+        ]
+      ]
+    },
+    "straight": {
+      "macro_f1": 0.8742,
+      "accuracy": 0.8754,
+      "classification_report": {
+        "negative": {
+          "precision": 0.864963503649635,
+          "recall": 0.8595854922279793,
+          "f1-score": 0.8622661122661123,
+          "support": 1930.0
+        },
+        "positive": {
+          "precision": 0.8839400428265525,
+          "recall": 0.8885062419285407,
+          "f1-score": 0.8862172606268784,
+          "support": 2323.0
+        },
+        "accuracy": 0.8753820832353633,
+        "macro avg": {
+          "precision": 0.8744517732380938,
+          "recall": 0.87404586707826,
+          "f1-score": 0.8742416864464954,
+          "support": 4253.0
+        },
+        "weighted avg": {
+          "precision": 0.8753285402139376,
+          "recall": 0.8753820832353633,
+          "f1-score": 0.8753482937008782,
+          "support": 4253.0
+        }
+      },
+      "confusion_matrix": [
+        [
+          1659,
+          271
+        ],
+        [
+          259,
+          2064
+        ]
+      ]
+    }
+  },
+  "threshold": 2,
+  "counts": {
+    "total_test": 5103,
+    "sarcastic_test": 284,
+    "straight_test": 4253
+  },
+  "misclassified_examples": {
+    "tfidf": [
+      {
+        "votes_funny": 166,
+        "genre": "roleplay",
+        "true": 0,
+        "pred": 1,
+        "text": "Nobody will read my review so I Will Eat 1 Tablespoon of ketchup For Every Like this gets REDEEM CODE WELCOMEORIGIN ORIGINSTEAM ORIGINDISCORD ORIGINX [Ctrl+C,Ctrl+V] This game only has 2 things going for it. 1) The 7 Deadly Sins IP 2) It's a fresh Gacha so it has the new game appeal. lastly i really do want this game to be the best gacha game but for me the best is still (wuthering waves) i really beg you guys to make some massive changes because these problems will genuinely kill the game for n"
+      },
+      {
+        "votes_funny": 47,
+        "genre": "shooter",
+        "true": 1,
+        "pred": 0,
+        "text": "Stop looking at the launch reviews, it’s actually good now I get it. I was annoyed at launch too. The servers were busted, the progression system felt like a total grind, and it honestly felt like a unfinished mess. I uninstalled it and almost never looked back. But I jumped back in a few weeks ago and it’s night and day compared to what it was at release. First off, they finally fixed the progression. You actually get rewarded for playing the game and finishing heists now instead of doing weird"
+      },
+      {
+        "votes_funny": 12,
+        "genre": "strategy",
+        "true": 1,
+        "pred": 0,
+        "text": "complacency, lazyness and undiscipline nearly killed this game and franchise, but now with a new dev studio that also contains ex colossal order staff, under new management that actually cares the future looks brighter than the past. Not everythings is fixed yet, some mistakes are still being made but theyre also being corrected a speed that seems like lightspeed compared to before. Problems are being adressed and new stuff added that has been requested for years now. all in all its going back u"
+      },
+      {
+        "votes_funny": 10,
+        "genre": "roleplay",
+        "true": 0,
+        "pred": 1,
+        "text": "There's a lot of really questionable and almost self sabotaging design decisions throughout the game. But when you get down to it I guess it's a pretty fun enough time if you don't really think about the bigger picture. But on a technical level this game is still busted and no matter what fans will say you will run into plenty of weird issues and frankly just middling performance for the visual quality on display. In my 60 hours of playtime so far I've had maybe 20+ crashes? Some needing me to r"
+      },
+      {
+        "votes_funny": 8,
+        "genre": "simulation",
+        "true": 1,
+        "pred": 0,
+        "text": "Please add sex with the fish ofc add a meter to the HUD for a horny gauge or something to track built up sexual desire and if you can't bust in a fish i think you should have to sit there and clean up after yourself that would be the drawback to being unproductive and a bad fisherman/gooner"
+      },
+      {
+        "votes_funny": 5,
+        "genre": "simulation",
+        "true": 0,
+        "pred": 1,
+        "text": "many hours of playing, but still can't catch a fish"
+      },
+      {
+        "votes_funny": 5,
+        "genre": "shooter",
+        "true": 1,
+        "pred": 0,
+        "text": "I originally tried Marathon because it was available for free, but I actually enjoyed it enough to buy the game afterward. The core gameplay feels interesting and there is definitely potential here. However, the UI feels very overwhelming and even a bit claustrophobic at times. For a new player, many things are not easy to understand, and the game does not explain itself very well. It takes more effort than it should to figure out what is going on. The biggest problem for me is that the game fee"
+      },
+      {
+        "votes_funny": 5,
+        "genre": "survival",
+        "true": 0,
+        "pred": 1,
+        "text": "corekeepers autistic big brother"
+      },
+      {
+        "votes_funny": 5,
+        "genre": "roguelike",
+        "true": 0,
+        "pred": 1,
+        "text": "The gameplay is fun but I really didn't like the imagery. Mainly the opening cutscene and some of the future achievements like \"make a deal with the devil.\" If you're a serious Christian this might not be the game for you."
+      },
+      {
+        "votes_funny": 4,
+        "genre": "shooter",
+        "true": 0,
+        "pred": 1,
+        "text": "RefundDay 3"
+      },
+      {
+        "votes_funny": 4,
+        "genre": "strategy",
+        "true": 0,
+        "pred": 1,
+        "text": "I really like this game because I played it when I was a kid. But I have a hard time to sell it to my friends because it's very micro-managy. For instance, when I tell friends there is no auto-villager production, it's a hard pass for them. Please bring AoE2 into the 21st century and add quality of life features and make the game more accessible to casual players."
+      },
+      {
+        "votes_funny": 4,
+        "genre": "survival",
+        "true": 0,
+        "pred": 1,
+        "text": "Cool down on potions including heath potions. Why on earth would you have this?"
+      }
+    ],
+    "transformer": [
+      {
+        "votes_funny": 21,
+        "genre": "roleplay",
+        "true": 0,
+        "pred": 1,
+        "text": "The \"not recommended\" comes not from any issues with the game, combat design, or performance. I quite love offset attacks and wounds, I love the additions to the movesets of many weapons, not particularly bothered by the self-driving mounts, don't really have performance issues either. My specs (as seen below) surprisingly get me a fairly stable 60 fps (with like 50 fps lows at worst) most of the time at 1440p ultrawide on mostly max settings (no raytracing, FSR upscaling, no framegen, but lower"
+      },
+      {
+        "votes_funny": 8,
+        "genre": "simulation",
+        "true": 1,
+        "pred": 0,
+        "text": "Please add sex with the fish ofc add a meter to the HUD for a horny gauge or something to track built up sexual desire and if you can't bust in a fish i think you should have to sit there and clean up after yourself that would be the drawback to being unproductive and a bad fisherman/gooner"
+      },
+      {
+        "votes_funny": 5,
+        "genre": "shooter",
+        "true": 1,
+        "pred": 0,
+        "text": "I originally tried Marathon because it was available for free, but I actually enjoyed it enough to buy the game afterward. The core gameplay feels interesting and there is definitely potential here. However, the UI feels very overwhelming and even a bit claustrophobic at times. For a new player, many things are not easy to understand, and the game does not explain itself very well. It takes more effort than it should to figure out what is going on. The biggest problem for me is that the game fee"
+      },
+      {
+        "votes_funny": 3,
+        "genre": "roleplay",
+        "true": 0,
+        "pred": 1,
+        "text": "The game isn't ready yet. A lot of bugs in this game. But slowly improving."
+      },
+      {
+        "votes_funny": 3,
+        "genre": "survival",
+        "true": 1,
+        "pred": 0,
+        "text": "Necesse-ary to play"
+      },
+      {
+        "votes_funny": 3,
+        "genre": "roguelike",
+        "true": 1,
+        "pred": 0,
+        "text": "According to Google search results, in October of 2023, Ghost Ship Games¹ may have announced the development of a spin-off sequel to '𝘿𝙚𝙚𝙥 𝙍𝙤𝙘𝙠 𝙂𝙖𝙡𝙖𝙘𝙩𝙞𝙘' titled '𝘿𝙚𝙚𝙥 𝙍𝙤𝙘𝙠 𝙂𝙖𝙡𝙖𝙘𝙩𝙞𝙘: 𝙍𝙤𝙜𝙪𝙚 𝘾𝙤𝙧𝙚'. On the date of May 20th in 2026, an early access product on Steam may have been released by Ghost Ship Games with this exact title. '𝘿𝙚𝙚𝙥 𝙍𝙤𝙘𝙠 𝙂𝙖𝙡𝙖𝙘𝙩𝙞𝙘: 𝙍𝙤𝙜𝙪𝙚 𝘾𝙤𝙧𝙚' may be a product on Steam that when purchased for 29.99 USD may be added to your Steam account's library. Something I noticed is that upon s"
+      },
+      {
+        "votes_funny": 3,
+        "genre": "shooter",
+        "true": 0,
+        "pred": 1,
+        "text": "now the extract campers can go invisible"
+      },
+      {
+        "votes_funny": 3,
+        "genre": "roguelike",
+        "true": 0,
+        "pred": 1,
+        "text": "it didnt rain."
+      },
+      {
+        "votes_funny": 3,
+        "genre": "survival",
+        "true": 0,
+        "pred": 1,
+        "text": "its ass"
+      },
+      {
+        "votes_funny": 3,
+        "genre": "roguelike",
+        "true": 0,
+        "pred": 1,
+        "text": "lots of risk for not having rained once in this mf"
+      },
+      {
+        "votes_funny": 3,
+        "genre": "roleplay",
+        "true": 0,
+        "pred": 1,
+        "text": "kind of mid ngl"
+      },
+      {
+        "votes_funny": 3,
+        "genre": "roguelike",
+        "true": 0,
+        "pred": 1,
+        "text": "SHRINE OF ORDER"
+      }
+    ]
+  }
+}
